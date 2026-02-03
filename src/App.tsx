@@ -11,7 +11,7 @@ function App() {
   const onSubmit = (data: LoginForm) => alert(`Welcome, ${data.mail}!`);
 
   return (
-    <div className='flex justify-center mt-36'>
+    <div className='flex justify-center h-screen w-screen'>
       <div className='border border-slate-300 pt-12 pb-9 px-8 rounded'>
         <div className='text-center'>
           <h1 className='text-3xl font-bold'>Sign In</h1>
